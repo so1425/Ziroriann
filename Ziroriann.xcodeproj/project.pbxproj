@@ -14,9 +14,14 @@
 		452B22002160BC820019E388 /* ZiroriannTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452B21FF2160BC820019E388 /* ZiroriannTests.swift */; };
 		452B220B2160BC820019E388 /* ZiroriannUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452B220A2160BC820019E388 /* ZiroriannUITests.swift */; };
 		452B221C2160C15C0019E388 /* ラーメンロゴ.png in Resources */ = {isa = PBXBuildFile; fileRef = 452B221B2160C15C0019E388 /* ラーメンロゴ.png */; };
-		452B2225216107BB0019E388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452B2223216107BB0019E388 /* Main.storyboard */; };
 		452B22372161440F0019E388 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452B22362161440F0019E388 /* SecondViewController.swift */; };
 		452B223921615C680019E388 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452B223821615C680019E388 /* ThirdViewController.swift */; };
+		4535FA9F216571CC00DA18BA /* 壁紙.png in Resources */ = {isa = PBXBuildFile; fileRef = 4535FA9D216571CC00DA18BA /* 壁紙.png */; };
+		4535FAA0216571CC00DA18BA /* 壁紙_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4535FA9E216571CC00DA18BA /* 壁紙_2.png */; };
+		4535FAA22165A58200DA18BA /* 歴史を刻め_汁なし.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4535FAA12165A58200DA18BA /* 歴史を刻め_汁なし.jpg */; };
+		45B9A9612167679C00B2CD54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B9A95F2167679C00B2CD54 /* Main.storyboard */; };
+		45B9A99F2167BE1900B2CD54 /* ThirdViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B9A99E2167BE1900B2CD54 /* ThirdViewCell.swift */; };
+		45B9A9A12167C7D800B2CD54 /* ラーメン.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B9A9A02167C7D800B2CD54 /* ラーメン.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +55,14 @@
 		452B220A2160BC820019E388 /* ZiroriannUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZiroriannUITests.swift; sourceTree = "<group>"; };
 		452B220C2160BC820019E388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		452B221B2160C15C0019E388 /* ラーメンロゴ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ラーメンロゴ.png"; sourceTree = "<group>"; };
-		452B2224216107BB0019E388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		452B22362161440F0019E388 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		452B223821615C680019E388 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		4535FA9D216571CC00DA18BA /* 壁紙.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "壁紙.png"; sourceTree = "<group>"; };
+		4535FA9E216571CC00DA18BA /* 壁紙_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "壁紙_2.png"; sourceTree = "<group>"; };
+		4535FAA12165A58200DA18BA /* 歴史を刻め_汁なし.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "歴史を刻め_汁なし.jpg"; sourceTree = "<group>"; };
+		45B9A9602167679C00B2CD54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45B9A99E2167BE1900B2CD54 /* ThirdViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewCell.swift; sourceTree = "<group>"; };
+		45B9A9A02167C7D800B2CD54 /* ラーメン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ラーメン.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +118,11 @@
 				452B21EC2160BC810019E388 /* ViewController.swift */,
 				452B22362161440F0019E388 /* SecondViewController.swift */,
 				452B223821615C680019E388 /* ThirdViewController.swift */,
-				452B2223216107BB0019E388 /* Main.storyboard */,
+				45B9A95F2167679C00B2CD54 /* Main.storyboard */,
 				452B21F12160BC820019E388 /* Assets.xcassets */,
 				452B21F32160BC820019E388 /* LaunchScreen.storyboard */,
 				452B21F62160BC820019E388 /* Info.plist */,
+				45B9A99E2167BE1900B2CD54 /* ThirdViewCell.swift */,
 			);
 			path = Ziroriann;
 			sourceTree = "<group>";
@@ -137,7 +148,11 @@
 		452B221A2160C15C0019E388 /* 素材 */ = {
 			isa = PBXGroup;
 			children = (
+				4535FA9D216571CC00DA18BA /* 壁紙.png */,
+				4535FA9E216571CC00DA18BA /* 壁紙_2.png */,
 				452B221B2160C15C0019E388 /* ラーメンロゴ.png */,
+				45B9A9A02167C7D800B2CD54 /* ラーメン.png */,
+				4535FAA12165A58200DA18BA /* 歴史を刻め_汁なし.jpg */,
 			);
 			path = "素材";
 			sourceTree = "<group>";
@@ -246,10 +261,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B9A9612167679C00B2CD54 /* Main.storyboard in Resources */,
+				4535FA9F216571CC00DA18BA /* 壁紙.png in Resources */,
 				452B221C2160C15C0019E388 /* ラーメンロゴ.png in Resources */,
+				4535FAA22165A58200DA18BA /* 歴史を刻め_汁なし.jpg in Resources */,
+				45B9A9A12167C7D800B2CD54 /* ラーメン.png in Resources */,
+				4535FAA0216571CC00DA18BA /* 壁紙_2.png in Resources */,
 				452B21F52160BC820019E388 /* LaunchScreen.storyboard in Resources */,
 				452B21F22160BC820019E388 /* Assets.xcassets in Resources */,
-				452B2225216107BB0019E388 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				452B21ED2160BC810019E388 /* ViewController.swift in Sources */,
+				45B9A99F2167BE1900B2CD54 /* ThirdViewCell.swift in Sources */,
 				452B22372161440F0019E388 /* SecondViewController.swift in Sources */,
 				452B223921615C680019E388 /* ThirdViewController.swift in Sources */,
 				452B21EB2160BC810019E388 /* AppDelegate.swift in Sources */,
@@ -321,10 +341,10 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		452B2223216107BB0019E388 /* Main.storyboard */ = {
+		45B9A95F2167679C00B2CD54 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				452B2224216107BB0019E388 /* Base */,
+				45B9A9602167679C00B2CD54 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

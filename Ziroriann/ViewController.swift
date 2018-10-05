@@ -45,6 +45,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         return cell!
     }
     
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return .leastNormalMagnitude
+    }
+    
     // セルが選択された時に呼ばれる
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("\(ereaNameArray[indexPath.row])が選ばれました")
@@ -54,6 +58,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         // 選択されたcellの番号を記憶
         chosenCell = indexPath.row
+        print("chosenCellは\(String(describing: chosenCell))だよ")
         
         // 画面遷移の準備
         performSegue(withIdentifier: "toSecondViewController",sender: nil)

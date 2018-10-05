@@ -124,22 +124,19 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         return cell!
     }
     
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return .leastNormalMagnitude
+    }
+    
     // セルが選択された時に呼ばれる
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("\(hokkaidoTohokuArray[indexPath.row])が選ばれました")
-        print("\(kantoArray[indexPath.row])が選ばれました")
-        print("\(chubuArray[indexPath.row])が選ばれました")
-        print("\(kinkiArray[indexPath.row])が選ばれました")
-        print("\(chugokuArray[indexPath.row])が選ばれました")
-        print("\(shikokuArray[indexPath.row])が選ばれました")
-        print("\(kyushuOkinawaArray[indexPath.row])が選ばれました")
         
         //セルの選択解除
         tableView.deselectRow(at: indexPath, animated: true)
         
         // 選択されたcellの番号を記憶
         secondChosenCell = indexPath.row
-        print(secondChosenCell)
+        print("secondChosenCellは\(String(describing: secondChosenCell))だよ")
         
         // 画面遷移の準備
         performSegue(withIdentifier: "toThirdViewController",sender: nil)
@@ -153,5 +150,6 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         
         // secondViewControllerのsecondGetCellに選択された画像を設定する
         thiVC.secondGetCell = secondChosenCell
+        thiVC.getCell2 = getCell
     }
 }
