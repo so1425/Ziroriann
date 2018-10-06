@@ -22,6 +22,14 @@
 		45B9A9612167679C00B2CD54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B9A95F2167679C00B2CD54 /* Main.storyboard */; };
 		45B9A99F2167BE1900B2CD54 /* ThirdViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B9A99E2167BE1900B2CD54 /* ThirdViewCell.swift */; };
 		45B9A9A12167C7D800B2CD54 /* ラーメン.png in Resources */ = {isa = PBXBuildFile; fileRef = 45B9A9A02167C7D800B2CD54 /* ラーメン.png */; };
+		45B9A9AB2167EA8500B2CD54 /* 歴史_なかもず_ramen.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 45B9A9A52167EA8500B2CD54 /* 歴史_なかもず_ramen.JPG */; };
+		45B9A9AC2167EA8500B2CD54 /* おもしろ_ramen.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 45B9A9A62167EA8500B2CD54 /* おもしろ_ramen.JPG */; };
+		45B9A9AD2167EA8500B2CD54 /* 地球規模_未来へ_ramen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45B9A9A72167EA8500B2CD54 /* 地球規模_未来へ_ramen.jpg */; };
+		45B9A9AE2167EA8500B2CD54 /* 歴史_枚方_ramen.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 45B9A9A82167EA8500B2CD54 /* 歴史_枚方_ramen.JPG */; };
+		45B9A9AF2167EA8500B2CD54 /* 歴史_本店_ramen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45B9A9A92167EA8500B2CD54 /* 歴史_本店_ramen.jpg */; };
+		45B9A9B02167EA8500B2CD54 /* 歴史_寺田町_ramen.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 45B9A9AA2167EA8500B2CD54 /* 歴史_寺田町_ramen.JPG */; };
+		45B9A9B22167EDF300B2CD54 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B9A9B12167EDF300B2CD54 /* ResultViewController.swift */; };
+		45B9A9F62169407A00B2CD54 /* ResultManuViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B9A9F52169407A00B2CD54 /* ResultManuViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +71,14 @@
 		45B9A9602167679C00B2CD54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45B9A99E2167BE1900B2CD54 /* ThirdViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewCell.swift; sourceTree = "<group>"; };
 		45B9A9A02167C7D800B2CD54 /* ラーメン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ラーメン.png"; sourceTree = "<group>"; };
+		45B9A9A52167EA8500B2CD54 /* 歴史_なかもず_ramen.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "歴史_なかもず_ramen.JPG"; sourceTree = "<group>"; };
+		45B9A9A62167EA8500B2CD54 /* おもしろ_ramen.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "おもしろ_ramen.JPG"; sourceTree = "<group>"; };
+		45B9A9A72167EA8500B2CD54 /* 地球規模_未来へ_ramen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "地球規模_未来へ_ramen.jpg"; sourceTree = "<group>"; };
+		45B9A9A82167EA8500B2CD54 /* 歴史_枚方_ramen.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "歴史_枚方_ramen.JPG"; sourceTree = "<group>"; };
+		45B9A9A92167EA8500B2CD54 /* 歴史_本店_ramen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "歴史_本店_ramen.jpg"; sourceTree = "<group>"; };
+		45B9A9AA2167EA8500B2CD54 /* 歴史_寺田町_ramen.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "歴史_寺田町_ramen.JPG"; sourceTree = "<group>"; };
+		45B9A9B12167EDF300B2CD54 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		45B9A9F52169407A00B2CD54 /* ResultManuViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultManuViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,11 +134,13 @@
 				452B21EC2160BC810019E388 /* ViewController.swift */,
 				452B22362161440F0019E388 /* SecondViewController.swift */,
 				452B223821615C680019E388 /* ThirdViewController.swift */,
+				45B9A9B12167EDF300B2CD54 /* ResultViewController.swift */,
 				45B9A95F2167679C00B2CD54 /* Main.storyboard */,
 				452B21F12160BC820019E388 /* Assets.xcassets */,
 				452B21F32160BC820019E388 /* LaunchScreen.storyboard */,
 				452B21F62160BC820019E388 /* Info.plist */,
 				45B9A99E2167BE1900B2CD54 /* ThirdViewCell.swift */,
+				45B9A9F52169407A00B2CD54 /* ResultManuViewCell.swift */,
 			);
 			path = Ziroriann;
 			sourceTree = "<group>";
@@ -148,6 +166,7 @@
 		452B221A2160C15C0019E388 /* 素材 */ = {
 			isa = PBXGroup;
 			children = (
+				45B9A9A22167EA8500B2CD54 /* ramen */,
 				4535FA9D216571CC00DA18BA /* 壁紙.png */,
 				4535FA9E216571CC00DA18BA /* 壁紙_2.png */,
 				452B221B2160C15C0019E388 /* ラーメンロゴ.png */,
@@ -155,6 +174,35 @@
 				4535FAA12165A58200DA18BA /* 歴史を刻め_汁なし.jpg */,
 			);
 			path = "素材";
+			sourceTree = "<group>";
+		};
+		45B9A9A22167EA8500B2CD54 /* ramen */ = {
+			isa = PBXGroup;
+			children = (
+				45B9A9A32167EA8500B2CD54 /* 近畿 */,
+			);
+			path = ramen;
+			sourceTree = "<group>";
+		};
+		45B9A9A32167EA8500B2CD54 /* 近畿 */ = {
+			isa = PBXGroup;
+			children = (
+				45B9A9A42167EA8500B2CD54 /* 大坂 */,
+			);
+			path = "近畿";
+			sourceTree = "<group>";
+		};
+		45B9A9A42167EA8500B2CD54 /* 大坂 */ = {
+			isa = PBXGroup;
+			children = (
+				45B9A9A52167EA8500B2CD54 /* 歴史_なかもず_ramen.JPG */,
+				45B9A9A62167EA8500B2CD54 /* おもしろ_ramen.JPG */,
+				45B9A9A72167EA8500B2CD54 /* 地球規模_未来へ_ramen.jpg */,
+				45B9A9A82167EA8500B2CD54 /* 歴史_枚方_ramen.JPG */,
+				45B9A9A92167EA8500B2CD54 /* 歴史_本店_ramen.jpg */,
+				45B9A9AA2167EA8500B2CD54 /* 歴史_寺田町_ramen.JPG */,
+			);
+			path = "大坂";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,14 +309,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B9A9B02167EA8500B2CD54 /* 歴史_寺田町_ramen.JPG in Resources */,
+				45B9A9AE2167EA8500B2CD54 /* 歴史_枚方_ramen.JPG in Resources */,
 				45B9A9612167679C00B2CD54 /* Main.storyboard in Resources */,
 				4535FA9F216571CC00DA18BA /* 壁紙.png in Resources */,
 				452B221C2160C15C0019E388 /* ラーメンロゴ.png in Resources */,
+				45B9A9AB2167EA8500B2CD54 /* 歴史_なかもず_ramen.JPG in Resources */,
 				4535FAA22165A58200DA18BA /* 歴史を刻め_汁なし.jpg in Resources */,
+				45B9A9AF2167EA8500B2CD54 /* 歴史_本店_ramen.jpg in Resources */,
+				45B9A9AC2167EA8500B2CD54 /* おもしろ_ramen.JPG in Resources */,
 				45B9A9A12167C7D800B2CD54 /* ラーメン.png in Resources */,
 				4535FAA0216571CC00DA18BA /* 壁紙_2.png in Resources */,
 				452B21F52160BC820019E388 /* LaunchScreen.storyboard in Resources */,
 				452B21F22160BC820019E388 /* Assets.xcassets in Resources */,
+				45B9A9AD2167EA8500B2CD54 /* 地球規模_未来へ_ramen.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +352,8 @@
 				452B22372161440F0019E388 /* SecondViewController.swift in Sources */,
 				452B223921615C680019E388 /* ThirdViewController.swift in Sources */,
 				452B21EB2160BC810019E388 /* AppDelegate.swift in Sources */,
+				45B9A9F62169407A00B2CD54 /* ResultManuViewCell.swift in Sources */,
+				45B9A9B22167EDF300B2CD54 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

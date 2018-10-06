@@ -14,7 +14,6 @@ class ThirdViewController: UIViewController, UITableViewDataSource, UITableViewD
 
     // SecondViewControllerから選択されたCell番号を受け取る変数
     var secondGetCell: Int!
-    
     var getCell2: Int!
     
     // 店名の配列
@@ -118,6 +117,9 @@ class ThirdViewController: UIViewController, UITableViewDataSource, UITableViewD
     // 選択されたジャンルの配列の長さ変数
     var secondArrayLength: Int!
     
+    // 選択されたセルを覚える変数
+    var thirdChosenCell: Int!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -201,7 +203,7 @@ class ThirdViewController: UIViewController, UITableViewDataSource, UITableViewD
         ramenImageMieArray = [""]
         ramenImageShigaArray = [""]
         ramenImageKyotoArray = [""]
-        ramenImageOsakaArray = ["歴史を刻め_汁なし.jpg", "", "", "", "", "歴史を刻め_汁なし.jpg"]
+        ramenImageOsakaArray = ["歴史_本店_ramen.jpg", "歴史_寺田町_ramen.JPG", "歴史_枚方_ramen.JPG", "歴史_なかもず_ramen.JPG", "おもしろ_ramen.JPG", "地球規模_未来へ_ramen.jpg"]
         ramenImageHyogoArray = [""]
         ramenImageNaraArray = [""]
         ramenImageWakayamaArray = [""]
@@ -729,4 +731,29 @@ class ThirdViewController: UIViewController, UITableViewDataSource, UITableViewD
         return .leastNormalMagnitude
     }
     
+    // セルが選択された時に呼ばれる
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        //セルの選択解除
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        // 選択されたcellの番号を記憶
+        thirdChosenCell = indexPath.row
+        print("thirdChosenCellは\(String(describing: thirdChosenCell))だよ")
+        
+        // 画面遷移の準備
+        performSegue(withIdentifier: "toResultViewController",sender: nil)
+    }
+    
+    // Segue 準備
+    override func prepare(for segue: UIStoryboardSegue, sender: Any!) {
+        
+        // 遷移先のViewControllerのインスタンスを生成
+        let resVC: ResultViewController = (segue.destination as? ResultViewController)!
+        
+        // ThirdViewControllerのsecondGetCellに選択された画像を設定する
+        resVC.thirdGetCell = thirdChosenCell
+        resVC.secondGetCell2 = secondGetCell
+        resVC.getCell3 = getCell2
+    }
 }
